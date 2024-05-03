@@ -22,3 +22,6 @@ Neste contexto, um servidor ssh precisa do seu cliente e assim por diante. Por c
 Especialmente no caso das distro Linux, a API realiza leituras a partir do sistema. Ou seja, a linguagem do SO usa, obrigatoriamente, a API para então realizar a leitura dos sockets.
 Portanto, o kernel da distro é o único que abre um socket. Indo além disso, ele também faz o controle dos programas em execução que têm ou não o acesso a ler e escrever determinadas aplicações em um socket aberto.
 Inclusive, este recurso está entre os principais diferenciais das distro Linux e responsável por garantir que os SOs baseados em Linux sejam mais seguros para diferentes tipos de projetos.
+
+
+fonte:https://linuxsolutions.com.br/sockets-o-que-e-e-como-eles-funcionam/
